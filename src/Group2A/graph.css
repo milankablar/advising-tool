@@ -1,0 +1,15 @@
+.root {
+    -fx-font-size: 14px;
+    -fx-font-family: sans-serif;
+    -fx-background-color: #FFFFFF;
+    -fx-alignment: center;
+}
+
+#menu{
+    -fx-font-family: "Calisto MT";
+    -fx-background-color: #a40900;
+}
+
+#menu .label{
+    -fx-text-fill: white;
+}

@@ -1,0 +1,65 @@
+.root {
+    -fx-font-size: 14px;
+    -fx-font-family: sans-serif;
+    -fx-background-color: #FFFFFF;
+    -fx-alignment: center;
+}
+
+#menu{
+    -fx-font-family: "Calisto MT";
+    -fx-background-color: #a40900;
+}
+
+#menu .label{
+    -fx-font-family: "Calisto MT";
+    -fx-text-fill: white;
+}
+
+#menu .menu-item .label{
+    -fx-font-family: "Calisto MT";
+    -fx-text-fill: black;
+}
+
+#courseList{
+    -fx-text-alignment: center;
+    -fx-alignment: center;
+    -fx-font-family: "Calisto MT";
+    -fx-font-size: 16px;
+}
+
+#coursePrerequisites{
+    -fx-text-alignment: center;
+    -fx-alignment: center;
+    -fx-font-family: "Calisto MT";
+    -fx-font-size: 16px;
+}
+#courseQuarter{
+    -fx-text-alignment: center;
+    -fx-alignment: center;
+    -fx-font-family: "Calisto MT";
+    -fx-font-size: 16px;
+}
+
+#courseCredit{
+    -fx-text-alignment: center;
+    -fx-alignment: center;
+    -fx-font-family: "Calisto MT";
+    -fx-font-size: 16px;
+}
+
+#courseCodeList{
+    -fx-text-alignment: center;
+    -fx-alignment: center;
+    -fx-font-family: "Calisto MT";
+    -fx-font-size: 16px;
+}
+
+.tab{
+ -fx-font-family: "Calisto MT";
+ -fx-font-weight:bold;
+}
+
+.tab-pane .tab-header-background{
+ -fx-background-color: #a40900;
+}
+

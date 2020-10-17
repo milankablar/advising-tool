@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="900.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Group2A.AdvisingController">
+   <children>
+      <MenuBar id="menu" layoutX="1.0" layoutY="2.0" prefHeight="30.0" prefWidth="1365.0" styleClass="menuClass">
+        <menus>
+          <Menu id="file" mnemonicParsing="false" text="File">
+            <items>
+                  <MenuItem mnemonicParsing="false" onAction="#loadTranscript" text="Load Transcript" />
+                <MenuItem mnemonicParsing="false" onAction="#loadOfferingFile" text="Load Offerings" />
+                <MenuItem mnemonicParsing="false" onAction="#loadPrerequisiteFile" text="Load Prerequisites File" />
+                <MenuItem mnemonicParsing="false" onAction="#loadCurriculumFile" text="Load Curriculum File" />
+                <MenuItem mnemonicParsing="false" onAction="#loadMultipleFiles" text="Load Multiple Files" />
+            </items>
+          </Menu>
+          <Menu id="help" mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <GridPane layoutX="8.0" layoutY="25.0" prefHeight="875.0" prefWidth="1351.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="745.0" minWidth="10.0" prefWidth="588.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="592.0" minWidth="10.0" prefWidth="586.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="592.0" minWidth="10.0" prefWidth="586.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="592.0" minWidth="10.0" prefWidth="586.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints maxHeight="192.0" minHeight="0.0" prefHeight="48.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="511.0" minHeight="10.0" prefHeight="259.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="440.0" minHeight="10.0" prefHeight="249.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="435.0" minHeight="10.0" prefHeight="288.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="25.0" prefWidth="1353.0" text="Milwaukee School of Engineering (MSOE) Advising Application" textAlignment="CENTER" textFill="#b21616" textOverrun="WORD_ELLIPSIS" wrapText="true" GridPane.columnSpan="4">
+               <font>
+                  <Font name="Calisto MT Bold" size="19.0" />
+               </font>
+            </Label>
+            <Pane prefHeight="249.0" prefWidth="574.0" GridPane.columnSpan="4" GridPane.rowIndex="1">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="500.0" layoutY="34.0" prefHeight="21.0" prefWidth="55.0" text="Major" textFill="#646161">
+                     <font>
+                        <Font name="Calisto MT Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <ChoiceBox fx:id="majorsBox" blendMode="SRC_ATOP" layoutX="455.0" layoutY="61.0" prefHeight="26.0" prefWidth="147.0" />
+                  <ListView fx:id="courseCodeList" layoutX="14.0" layoutY="44.0" onMouseClicked="#updateCourseAttributes" prefHeight="206.0" prefWidth="381.0" />
+                  <Label layoutX="14.0" layoutY="13.0" prefHeight="21.0" prefWidth="97.0" text="Course Code" textFill="#646161">
+                     <font>
+                        <Font name="Calisto MT Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="searchBar" layoutX="111.0" layoutY="11.0" onKeyReleased="#search" prefHeight="26.0" prefWidth="283.0" promptText="Search a course (e.g. SE2811)" />
+                  <GridPane id="table1" layoutX="685.0" layoutY="11.0" prefHeight="240.0" prefWidth="623.0">
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="268.0" minWidth="10.0" prefWidth="268.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="231.0" minWidth="10.0" prefWidth="111.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="206.0" minWidth="10.0" prefWidth="132.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="206.0" minWidth="10.0" prefWidth="100.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints maxHeight="77.0" minHeight="0.0" prefHeight="27.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="237.0" minHeight="10.0" prefHeight="223.0" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                     <children>
+                        <Label alignment="CENTER" text="Description" textFill="#646161" GridPane.halignment="CENTER" GridPane.valignment="TOP">
+                           <font>
+                              <Font name="Calisto MT Bold" size="16.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="157.0" layoutY="43.0" prefHeight="16.0" prefWidth="69.0" text="Quarter" textFill="#646161" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="TOP">
+                           <font>
+                              <Font name="Calisto MT Bold" size="16.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="157.0" layoutY="43.0" prefHeight="21.0" prefWidth="97.0" text="Prerequisites" textFill="#646161" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="TOP">
+                           <font>
+                              <Font name="Calisto MT Bold" size="16.0" />
+                           </font>
+                        </Label>
+                        <ListView id="description" fx:id="courseList" prefHeight="200.0" prefWidth="268.0" GridPane.rowIndex="1" />
+                        <ListView id="quarter" fx:id="courseQuarter" prefHeight="200.0" prefWidth="115.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <ListView id="prereq" fx:id="coursePrerequisites" prefHeight="200.0" prefWidth="136.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="97.0" text="Credits" textFill="#646161" GridPane.columnIndex="3">
+                           <font>
+                              <Font name="Calisto MT Bold" size="16.0" />
+                           </font>
+                        </Label>
+                        <ListView id="credit" fx:id="courseCredit" prefHeight="200.0" prefWidth="104.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                     </children>
+                  </GridPane>
+                  <Button layoutX="455.0" layoutY="136.0" mnemonicParsing="false" onAction="#displayCurriculumSE" prefHeight="26.0" prefWidth="147.0" text="SE Curriculum" textFill="#646161">
+                     <font>
+                        <Font name="Calisto MT Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="455.0" layoutY="181.0" mnemonicParsing="false" onAction="#displayCurriculumCS" prefHeight="26.0" prefWidth="147.0" text="CS Curriculum" textFill="#646161">
+                     <font>
+                        <Font name="Calisto MT Bold" size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+            </Pane>
+            <Pane prefHeight="200.0" prefWidth="143.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Pane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <Pane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Pane layoutX="686.0" layoutY="321.0" prefHeight="200.0" prefWidth="143.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <TabPane id="view" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="540.0" prefWidth="1350.0" tabClosingPolicy="UNAVAILABLE" GridPane.columnSpan="4" GridPane.rowIndex="2" GridPane.rowSpan="2">
+              <tabs>
+                <Tab text="Student">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <TabPane id="actions" fx:id="studentTabPane" disable="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onMouseEntered="#updateTabs" prefHeight="496.0" prefWidth="1350.0" tabClosingPolicy="UNAVAILABLE">
+                                <tabs>
+                                  <Tab text="Prerequisite Graph">
+                                    <content>
+                                      <AnchorPane fx:id="studentPrereqPane" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                             <children>
+                                                <Button layoutX="741.0" layoutY="212.0" mnemonicParsing="false" onAction="#createPrerequisiteTab" text="Load Prerequisite Graph" textFill="#646161">
+                                                   <font>
+                                                      <Font name="Calisto MT Bold" size="14.0" />
+                                                   </font>
+                                                </Button>
+                                                <Button layoutX="741.0" layoutY="262.0" mnemonicParsing="false" onAction="#savePrerequisites" text="Save Prerequisite Graph" textFill="#646161">
+                                                   <font>
+                                                      <Font name="Calisto MT Bold" size="14.0" />
+                                                   </font>
+                                                </Button>
+                                             </children></AnchorPane>
+                                    </content>
+                                  </Tab>
+                                  <Tab fx:id="studentCourseReqTab" text="Course Recommendations">
+                                    <content>
+                                      <AnchorPane fx:id="studentRecommendPane" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                                    </content>
+                                  </Tab>
+                                    <Tab fx:id="studentGradPlanTab" text="Graduation Plan">
+                                       <content>
+                                          <HBox fx:id="graduationPlanPane" prefHeight="424.0" prefWidth="1350.0" />
+                                       </content>
+                                    </Tab>
+                                </tabs>
+                              </TabPane>
+                           </children>
+                        </AnchorPane>
+                  </content>
+                </Tab>
+                <Tab text="Advisor">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="214.0" prefWidth="258.0">
+                           <children>
+                              <TabPane fx:id="advisorTabPane" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" onMouseEntered="#updateTabs" prefHeight="550.0" prefWidth="1350.0" tabClosingPolicy="UNAVAILABLE">
+                                <tabs>
+                                  <Tab fx:id="advisorCourseReqTab" text="Course Recommendations">
+                                    <content>
+                                      <AnchorPane fx:id="advisorRecommendPane" />
+                                    </content>
+                                  </Tab>
+                                </tabs>
+                              </TabPane>
+                           </children>
+                        </AnchorPane>
+                  </content>
+                </Tab>
+              </tabs>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <GridPane.margin>
+                  <Insets top="20.0" />
+               </GridPane.margin>
+            </TabPane>
+         </children>
+      </GridPane>
+   </children>
+    <stylesheets>
+        <URL value="@Advising.css" />
+    </stylesheets>
+</AnchorPane>

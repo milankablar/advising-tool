@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="759.0" prefWidth="1282.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+  <children>
+     <MenuBar id="menu" prefHeight="0.0" prefWidth="1282.0" VBox.vgrow="NEVER">
+        <menus>
+           <Menu mnemonicParsing="false" text="File">
+              <items>
+                 <MenuItem mnemonicParsing="false" text="Close" />
+                 <MenuItem mnemonicParsing="false" text="Save" />
+                 <MenuItem mnemonicParsing="false" text="Save As…" />
+                 <MenuItem mnemonicParsing="false" text="Quit" />
+              </items>
+           </Menu>
+           <Menu mnemonicParsing="false" text="Help">
+              <items>
+                 <MenuItem mnemonicParsing="false" text="About MSOE Advising Application" />
+              </items>
+           </Menu>
+        </menus>
+     </MenuBar>
+    <AnchorPane id="paneCS" maxHeight="-1.0" maxWidth="-1.0" prefHeight="406.0" prefWidth="761.0" VBox.vgrow="ALWAYS">
+         <children>
+            <Canvas height="821.0" layoutX="1.0" layoutY="-2.0" width="1281.0" />
+            <Rectangle fx:id="CS2300" arcHeight="5.0" arcWidth="5.0" fill="#eed5b9" height="55.0" layoutX="436.0" layoutY="473.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Rectangle fx:id="SE2800" arcHeight="5.0" arcWidth="5.0" fill="#eed5b9" height="55.0" layoutX="539.0" layoutY="473.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Label layoutX="457.0" layoutY="490.0" text="CS2300">
+               <font>
+                  <Font name="Californian FB Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="557.0" layoutY="490.0" text="SE2800">
+               <font>
+                  <Font name="Californian FB Bold" size="18.0" />
+               </font>
+            </Label>
+            <Rectangle id="MA262" fx:id="MA383" arcHeight="5.0" arcWidth="5.0" fill="#eed5b9" height="55.0" layoutX="539.0" layoutY="236.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Rectangle fx:id="MA2323" arcHeight="5.0" arcWidth="5.0" fill="#eed5b9" height="55.0" layoutX="439.0" layoutY="161.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Rectangle fx:id="MA2310" arcHeight="5.0" arcWidth="5.0" fill="#eed5b9" height="55.0" layoutX="332.0" layoutY="292.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Label layoutX="347.0" layoutY="309.0" text="MA2310">
+               <font>
+                  <Font name="Californian FB Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="452.0" layoutY="178.0" text="MA2323">
+               <font>
+                  <Font name="Californian FB Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="554.0" layoutY="253.0" text="MA383">
+               <font>
+                  <Font name="Californian FB Bold" size="18.0" />
+               </font>
+            </Label>
+            <Rectangle fx:id="SE2030" arcHeight="5.0" arcWidth="5.0" fill="#eed5b9" height="55.0" layoutX="332.0" layoutY="378.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Rectangle fx:id="SE2811" arcHeight="5.0" arcWidth="5.0" fill="#eed5b9" height="55.0" layoutX="436.0" layoutY="378.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Rectangle fx:id="CS2400" arcHeight="5.0" arcWidth="5.0" fill="#eed5b9" height="55.0" layoutX="539.0" layoutY="378.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Label layoutX="352.0" layoutY="395.0" text="SE2030">
+               <font>
+                  <Font name="Californian FB Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="457.0" layoutY="395.0" text="SE2811">
+               <font>
+                  <Font name="Californian FB Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="554.0" layoutY="395.0" text="CS2400">
+               <font>
+                  <Font name="Californian FB Bold" size="18.0" />
+               </font>
+            </Label>
+            <Rectangle fx:id="BA2220" arcHeight="5.0" arcWidth="5.0" fill="#eed5b9" height="55.0" layoutX="332.0" layoutY="547.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Rectangle fx:id="CS2711" arcHeight="5.0" arcWidth="5.0" fill="#eed5b9" height="55.0" layoutX="436.0" layoutY="547.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Rectangle fx:id="CS2040" arcHeight="5.0" arcWidth="5.0" fill="#eed5b9" height="55.0" layoutX="539.0" layoutY="547.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Label layoutX="347.0" layoutY="563.0" text="BA2220">
+               <font>
+                  <Font name="Californian FB Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="557.0" layoutY="564.0" text="CS2040">
+               <font>
+                  <Font name="Californian FB Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="457.0" layoutY="564.0" text="CS2711">
+               <font>
+                  <Font name="Californian FB Bold" size="18.0" />
+               </font>
+            </Label>
+            <Rectangle fx:id="BUSEL" arcHeight="5.0" arcWidth="5.0" fill="#eed5b9" height="55.0" layoutX="332.0" layoutY="662.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Rectangle fx:id="BA3444" arcHeight="5.0" arcWidth="5.0" fill="#eed5b9" height="55.0" layoutX="539.0" layoutY="662.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Label layoutX="557.0" layoutY="679.0" text="BA3444">
+               <font>
+                  <Font name="Californian FB Bold" size="18.0" />
+               </font>
+            </Label>
+            <Rectangle fx:id="GS1001" arcHeight="5.0" arcWidth="5.0" fill="#c0dff8" height="55.0" layoutX="14.0" layoutY="662.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Rectangle fx:id="GS1002" arcHeight="5.0" arcWidth="5.0" fill="#b0d5f4" height="55.0" layoutX="118.0" layoutY="662.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Rectangle fx:id="GS1003" arcHeight="5.0" arcWidth="5.0" fill="#b0d5f4" height="55.0" layoutX="221.0" layoutY="662.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Label layoutX="34.0" layoutY="679.0" text="GS1001">
+               <font>
+                  <Font name="Californian FB Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="137.0" layoutY="679.0" text="GS1002">
+               <font>
+                  <Font name="Californian FB Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="241.0" layoutY="679.0" text="GS1003">
+               <font>
+                  <Font name="Californian FB Bold" size="18.0" />
+               </font>
+            </Label>
+            <Rectangle fx:id="CS1011" arcHeight="5.0" arcWidth="5.0" fill="#c0dff8" height="55.0" layoutX="14.0" layoutY="547.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Rectangle fx:id="CS1021" arcHeight="5.0" arcWidth="5.0" fill="#c0dff8" height="55.0" layoutX="118.0" layoutY="547.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Rectangle fx:id="CS2852" arcHeight="5.0" arcWidth="5.0" fill="#c0dff8" height="55.0" layoutX="221.0" layoutY="547.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Label layoutX="34.0" layoutY="564.0" text="CS1011">
+               <font>
+                  <Font name="Californian FB Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="139.0" layoutY="564.0" text="CS1021">
+               <font>
+                  <Font name="Californian FB Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="239.0" layoutY="564.0" text="CS2852">
+               <font>
+                  <Font name="Californian FB Bold" size="18.0" />
+               </font>
+            </Label>
+            <Rectangle fx:id="MA136" arcHeight="5.0" arcWidth="5.0" fill="#c0dff8" height="55.0" layoutX="14.0" layoutY="378.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Rectangle fx:id="MA137" arcHeight="5.0" arcWidth="5.0" fill="#c0dff8" height="55.0" layoutX="118.0" layoutY="378.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Rectangle fx:id="MA2314" arcHeight="5.0" arcWidth="5.0" fill="#c0dff8" height="55.0" layoutX="221.0" layoutY="378.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Label layoutX="34.0" layoutY="395.0" text="MA136">
+               <font>
+                  <Font name="Californian FB Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="139.0" layoutY="395.0" text="MA137">
+               <font>
+                  <Font name="Californian FB Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="236.0" layoutY="395.0" text="MA2314">
+               <font>
+                  <Font name="Californian FB Bold" size="18.0" />
+               </font>
+            </Label>
+            <Rectangle fx:id="CH200" arcHeight="5.0" arcWidth="5.0" fill="#c0dff8" height="55.0" layoutX="14.0" layoutY="160.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Rectangle fx:id="PH2011" arcHeight="5.0" arcWidth="5.0" fill="#c0dff8" height="55.0" layoutX="118.0" layoutY="160.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Rectangle fx:id="SCIEL" arcHeight="5.0" arcWidth="5.0" fill="#c0dff8" height="55.0" layoutX="221.0" layoutY="160.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Label layoutX="34.0" layoutY="177.0" text="CH200">
+               <font>
+                  <Font name="Californian FB Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="139.0" layoutY="177.0" text="PH2011">
+               <font>
+                  <Font name="Californian FB Bold" size="18.0" />
+               </font>
+            </Label>
+            <Rectangle fx:id="FREE" arcHeight="5.0" arcWidth="5.0" fill="#d0d0f2" height="55.0" layoutX="650.0" layoutY="663.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Rectangle fx:id="OR402" arcHeight="5.0" arcWidth="5.0" fill="#d0d0f2" height="55.0" layoutX="754.0" layoutY="663.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Rectangle fx:id="HUSS" arcHeight="5.0" arcWidth="5.0" fill="#d0d0f2" height="55.0" layoutX="857.0" layoutY="663.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Rectangle fx:id="CS3840" arcHeight="5.0" arcWidth="5.0" fill="#d0d0f2" height="55.0" layoutX="753.0" layoutY="548.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Rectangle fx:id="CS3310" arcHeight="5.0" arcWidth="5.0" fill="#d0d0f2" height="55.0" layoutX="855.0" layoutY="548.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Label layoutX="773.0" layoutY="565.0" text="CS3840">
+               <font>
+                  <Font name="Californian FB Bold" size="18.0" />
+               </font>
+            </Label>
+            <Rectangle fx:id="SE3821" arcHeight="5.0" arcWidth="5.0" fill="#d0d0f2" height="55.0" layoutX="650.0" layoutY="379.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Rectangle fx:id="SE2840" arcHeight="5.0" arcWidth="5.0" fill="#d0d0f2" height="55.0" layoutX="754.0" layoutY="379.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Rectangle fx:id="CS3851" arcHeight="5.0" arcWidth="5.0" fill="#d0d0f2" height="55.0" layoutX="857.0" layoutY="379.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Label layoutX="670.0" layoutY="396.0" text="SE3821">
+               <font>
+                  <Font name="Californian FB Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="775.0" layoutY="396.0" text="SE2840">
+               <font>
+                  <Font name="Californian FB Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="872.0" layoutY="396.0" text="CS3851">
+               <font>
+                  <Font name="Californian FB Bold" size="18.0" />
+               </font>
+            </Label>
+            <Rectangle fx:id="CS3860" arcHeight="5.0" arcWidth="5.0" fill="#d0d0f2" height="55.0" layoutX="650.0" layoutY="161.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Rectangle fx:id="MA3320" arcHeight="5.0" arcWidth="5.0" fill="#d0d0f2" height="55.0" layoutX="754.0" layoutY="101.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Label layoutX="670.0" layoutY="178.0" text="CS3860">
+               <font>
+                  <Font name="Californian FB Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="767.0" layoutY="118.0" text="MA3320">
+               <font>
+                  <Font name="Californian FB Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="772.0" layoutY="679.0" prefHeight="25.0" prefWidth="57.0" text="OR402">
+               <font>
+                  <Font name="Californian FB Bold" size="18.0" />
+               </font>
+            </Label>
+            <Rectangle fx:id="CS3040" arcHeight="5.0" arcWidth="5.0" fill="#d0d0f2" height="55.0" layoutX="651.0" layoutY="473.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Label layoutX="671.0" layoutY="490.0" text="CS3040">
+               <font>
+                  <Font name="Californian FB Bold" size="18.0" />
+               </font>
+            </Label>
+            <Rectangle fx:id="CS3400" arcHeight="5.0" arcWidth="5.0" fill="#d0d0f2" height="55.0" layoutX="650.0" layoutY="309.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Label layoutX="670.0" layoutY="326.0" text="CS3400">
+               <font>
+                  <Font name="Californian FB Bold" size="18.0" />
+               </font>
+            </Label>
+            <Rectangle fx:id="CS3300" arcHeight="5.0" arcWidth="5.0" fill="#d0d0f2" height="55.0" layoutX="753.0" layoutY="309.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Label layoutX="773.0" layoutY="326.0" text="CS3300">
+               <font>
+                  <Font name="Californian FB Bold" size="18.0" />
+               </font>
+            </Label>
+            <Rectangle fx:id="CS3450" arcHeight="5.0" arcWidth="5.0" fill="#d0d0f2" height="55.0" layoutX="854.0" layoutY="309.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Label layoutX="874.0" layoutY="326.0" text="CS3450">
+               <font>
+                  <Font name="Californian FB Bold" size="18.0" />
+               </font>
+            </Label>
+            <Rectangle fx:id="HUSS3" arcHeight="5.0" arcWidth="5.0" fill="#eebdb4" height="55.0" layoutX="1069.0" layoutY="664.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Rectangle fx:id="CS4000" arcHeight="5.0" arcWidth="5.0" fill="#eebdb4" height="55.0" layoutX="965.0" layoutY="380.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Rectangle fx:id="SE4010" arcHeight="5.0" arcWidth="5.0" fill="#eebdb4" height="55.0" layoutX="1069.0" layoutY="380.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Rectangle fx:id="SE4020" arcHeight="5.0" arcWidth="5.0" fill="#eebdb4" height="55.0" layoutX="1172.0" layoutY="380.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Label layoutX="985.0" layoutY="397.0" text="CS4000">
+               <font>
+                  <Font name="Californian FB Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="1090.0" layoutY="397.0" text="CS4010">
+               <font>
+                  <Font name="Californian FB Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="1187.0" layoutY="397.0" text="CS4020">
+               <font>
+                  <Font name="Californian FB Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="1093.0" layoutY="669.0" prefHeight="25.0" prefWidth="52.0" text="HU/SS">
+               <font>
+                  <Font name="Californian FB Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="1091.0" layoutY="690.0" prefHeight="25.0" prefWidth="57.0" text="Elective">
+               <font>
+                  <Font name="Californian FB Bold" size="16.0" />
+               </font>
+            </Label>
+            <Rectangle fx:id="SE3910" arcHeight="5.0" arcWidth="5.0" fill="#eebdb4" height="55.0" layoutX="966.0" layoutY="549.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Label layoutX="986.0" layoutY="566.0" text="SE3910">
+               <font>
+                  <Font name="Californian FB Bold" size="18.0" />
+               </font>
+            </Label>
+            <Rectangle fx:id="TECHEL" arcHeight="5.0" arcWidth="5.0" fill="#eebdb4" height="55.0" layoutX="965.0" layoutY="310.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Rectangle fx:id="TECHEL1" arcHeight="5.0" arcWidth="5.0" fill="#eebdb4" height="55.0" layoutX="1068.0" layoutY="310.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Rectangle fx:id="TECHEL2" accessibleText="CS1011" arcHeight="5.0" arcWidth="5.0" fill="#eebdb4" height="55.0" layoutX="1169.0" layoutY="310.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Rectangle fx:id="HU4321" accessibleText="GS1002" arcHeight="5.0" arcWidth="5.0" fill="#eebdb4" height="55.0" layoutX="966.0" layoutY="664.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Rectangle fx:id="HUSS4" accessibleText="GS1002" arcHeight="5.0" arcWidth="5.0" fill="#eebdb4" height="55.0" layoutX="1173.0" layoutY="664.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Label layoutX="1197.0" layoutY="669.0" prefHeight="25.0" prefWidth="52.0" text="HU/SS">
+               <font>
+                  <Font name="Californian FB Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="1195.0" layoutY="690.0" prefHeight="25.0" prefWidth="57.0" text="Elective">
+               <font>
+                  <Font name="Californian FB Bold" size="16.0" />
+               </font>
+            </Label>
+            <Rectangle accessibleText="Fall" arcHeight="5.0" arcWidth="5.0" fill="#94bfe7" height="55.0" layoutX="14.0" layoutY="743.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#94bfe7" height="55.0" layoutX="117.0" layoutY="743.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#94bfe7" height="55.0" layoutX="221.0" layoutY="743.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dbb07d" height="55.0" layoutX="330.0" layoutY="743.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dbb07d" height="55.0" layoutX="435.0" layoutY="743.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dbb07d" height="55.0" layoutX="540.0" layoutY="743.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9190d1" height="55.0" layoutX="650.0" layoutY="743.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9190d1" height="55.0" layoutX="753.0" layoutY="743.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9190d1" height="55.0" layoutX="857.0" layoutY="743.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e88a79" height="55.0" layoutX="965.0" layoutY="743.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e88a79" height="55.0" layoutX="1068.0" layoutY="743.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e88a79" height="55.0" layoutX="1172.0" layoutY="743.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Label layoutX="47.0" layoutY="760.0" text="Fall">
+               <font>
+                  <Font name="Californian FB Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="363.0" layoutY="760.0" text="Fall">
+               <font>
+                  <Font name="Californian FB Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="683.0" layoutY="760.0" text="Fall">
+               <font>
+                  <Font name="Californian FB Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="998.0" layoutY="760.0" text="Fall">
+               <font>
+                  <Font name="Californian FB Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="136.0" layoutY="760.0" text="Winter">
+               <font>
+                  <Font name="Californian FB Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="454.0" layoutY="760.0" text="Winter">
+               <font>
+                  <Font name="Californian FB Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="772.0" layoutY="760.0" text="Winter">
+               <font>
+                  <Font name="Californian FB Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="1087.0" layoutY="760.0" text="Winter">
+               <font>
+                  <Font name="Californian FB Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="243.0" layoutY="760.0" text="Spring">
+               <font>
+                  <Font name="Californian FB Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="562.0" layoutY="760.0" text="Spring">
+               <font>
+                  <Font name="Californian FB Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="879.0" layoutY="760.0" text="Spring">
+               <font>
+                  <Font name="Californian FB Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="1194.0" layoutY="760.0" text="Spring">
+               <font>
+                  <Font name="Californian FB Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="997.0" layoutY="315.0" prefHeight="25.0" prefWidth="36.0" text="Tech">
+               <font>
+                  <Font name="Californian FB Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="988.0" layoutY="335.0" prefHeight="25.0" prefWidth="57.0" text="Elective">
+               <font>
+                  <Font name="Californian FB Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="1099.0" layoutY="317.0" prefHeight="25.0" prefWidth="36.0" text="Tech">
+               <font>
+                  <Font name="Californian FB Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="1091.0" layoutY="337.0" prefHeight="25.0" prefWidth="57.0" text="Elective">
+               <font>
+                  <Font name="Californian FB Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="1197.0" layoutY="316.0" prefHeight="25.0" prefWidth="36.0" text="Tech">
+               <font>
+                  <Font name="Californian FB Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="1190.0" layoutY="335.0" prefHeight="25.0" prefWidth="57.0" text="Elective">
+               <font>
+                  <Font name="Californian FB Bold" size="16.0" />
+               </font>
+            </Label>
+            <Rectangle fx:id="MASCIEL2" arcHeight="5.0" arcWidth="5.0" fill="#eebdb4" height="55.0" layoutX="1068.0" layoutY="160.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Label layoutX="1086.0" layoutY="165.0" prefHeight="25.0" prefWidth="65.0" text="MA/SCI">
+               <font>
+                  <Font name="Californian FB Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="1089.0" layoutY="183.0" prefHeight="25.0" prefWidth="57.0" text="Elective">
+               <font>
+                  <Font name="Californian FB Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="1.0" layoutY="3.0" prefHeight="25.0" prefWidth="1281.0" text="Computer Science Curriculum" textAlignment="CENTER" textFill="#b21616">
+               <font>
+                  <Font name="Calisto MT Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="227.0" layoutY="179.0" text="SCI Elective">
+               <font>
+                  <Font name="Californian FB Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="353.0" layoutY="669.0" prefHeight="25.0" prefWidth="52.0" text="HU/SS">
+               <font>
+                  <Font name="Californian FB Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="351.0" layoutY="688.0" prefHeight="25.0" prefWidth="57.0" text="Elective">
+               <font>
+                  <Font name="Californian FB Bold" size="16.0" />
+               </font>
+            </Label>
+            <Rectangle fx:id="CS2911" arcHeight="5.0" arcWidth="5.0" fill="#eed5b9" height="55.0" layoutX="330.0" layoutY="474.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Label layoutX="351.0" layoutY="491.0" text="CS2911">
+               <font>
+                  <Font name="Californian FB Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="682.0" layoutY="671.0" prefHeight="25.0" prefWidth="36.0" text="Free">
+               <font>
+                  <Font name="Californian FB Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="672.0" layoutY="690.0" prefHeight="25.0" prefWidth="57.0" text="Elective">
+               <font>
+                  <Font name="Californian FB Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="878.0" layoutY="669.0" prefHeight="25.0" prefWidth="52.0" text="HU/SS">
+               <font>
+                  <Font name="Californian FB Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="876.0" layoutY="690.0" prefHeight="25.0" prefWidth="57.0" text="Elective">
+               <font>
+                  <Font name="Californian FB Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="872.0" layoutY="563.0" text="CS3310">
+               <font>
+                  <Font name="Californian FB Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="985.0" layoutY="681.0" text="HU4321">
+               <font>
+                  <Font name="Californian FB Bold" size="18.0" />
+               </font>
+            </Label>
+            <Rectangle fx:id="TECHEL3" arcHeight="5.0" arcWidth="5.0" fill="#eebdb4" height="55.0" layoutX="965.0" layoutY="242.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Label layoutX="997.0" layoutY="247.0" prefHeight="25.0" prefWidth="36.0" text="Tech">
+               <font>
+                  <Font name="Californian FB Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="988.0" layoutY="267.0" prefHeight="25.0" prefWidth="57.0" text="Elective">
+               <font>
+                  <Font name="Californian FB Bold" size="16.0" />
+               </font>
+            </Label>
+            <Rectangle fx:id="TECHEL4" arcHeight="5.0" arcWidth="5.0" fill="#eebdb4" height="55.0" layoutX="1069.0" layoutY="242.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Label layoutX="1101.0" layoutY="247.0" prefHeight="25.0" prefWidth="36.0" text="Tech">
+               <font>
+                  <Font name="Californian FB Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="1092.0" layoutY="267.0" prefHeight="25.0" prefWidth="57.0" text="Elective">
+               <font>
+                  <Font name="Californian FB Bold" size="16.0" />
+               </font>
+            </Label>
+            <Rectangle fx:id="MASCIEL21" arcHeight="5.0" arcWidth="5.0" fill="#eebdb4" height="55.0" layoutX="1170.0" layoutY="160.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Label layoutX="1188.0" layoutY="165.0" prefHeight="25.0" prefWidth="65.0" text="MA/SCI">
+               <font>
+                  <Font name="Californian FB Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="1191.0" layoutY="183.0" prefHeight="25.0" prefWidth="57.0" text="Elective">
+               <font>
+                  <Font name="Californian FB Bold" size="16.0" />
+               </font>
+            </Label>
+            <Rectangle fx:id="FREE2" arcHeight="5.0" arcWidth="5.0" fill="#eebdb4" height="55.0" layoutX="1170.0" layoutY="93.0" stroke="BLACK" strokeType="INSIDE" width="95.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Rectangle>
+            <Label layoutX="1202.0" layoutY="101.0" prefHeight="25.0" prefWidth="36.0" text="Free">
+               <font>
+                  <Font name="Californian FB Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="1192.0" layoutY="120.0" prefHeight="25.0" prefWidth="57.0" text="Elective">
+               <font>
+                  <Font name="Californian FB Bold" size="16.0" />
+               </font>
+            </Label>
+            <Pane layoutX="26.0" layoutY="24.0" prefHeight="55.0" prefWidth="203.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="51.0" layoutY="17.0" text="Completed">
+                     <font>
+                        <Font name="Calisto MT Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="30.0" fitWidth="23.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="file:./resources/Images/check.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </children>
+    </AnchorPane>
+  </children>
+   <stylesheets>
+      <URL value="@Graph.css" />
+   </stylesheets>
+</VBox>
